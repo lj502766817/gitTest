@@ -5,5 +5,6 @@ public class demo1 {
     public static void main(String[] args) {
         System.out.printf("hello world!!");
         System.out.printf("add some new code!!");
+        System.out.println("add some new word in master branch!!");
     }
 }
