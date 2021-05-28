@@ -89,4 +89,13 @@ SeqList mergeSeqList(SeqList *l1, SeqList *l2);
  */
 bool exchangeArray(int arr[],int len, int m, int n);
 
+/**
+ * 线性表(a1,a2,a3,...,an)中的元素递增有序且按顺序存储于计算机内。
+ * 要求设计一算法，完成用最少时间在表中查找数值为x的元素，
+ * 若找到则将其与后继元素位置相交换，若找不到则将其插入表中并使表中元素仍递增有序。
+ * @param list
+ * @return
+ */
+bool handleValueX(SeqList *list);
+
 #endif //DEMO1_MYDEMO_H
